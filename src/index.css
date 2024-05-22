@@ -38,6 +38,10 @@ html {
   .flxCenter {
     @apply flex justify-center;
   }
+
+  .min-box-w {
+    @apply min-w-[370px];
+  }
 }
 
 .bg {
@@ -62,4 +66,12 @@ html {
     transparent 30%,
     rgba(0, 0, 0, 0.801) 60%
   );
+}
+
+.header_text {
+  font-size: clamp(3.5rem, 5cqi, 10rem);
+}
+
+.text_shadow {
+  text-shadow: 0 0 2px currentColor;
 }

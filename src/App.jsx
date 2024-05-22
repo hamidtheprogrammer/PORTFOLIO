@@ -8,6 +8,7 @@ const App = () => {
     <section className="relative wrapper h-[100%] w-[100%]">
       <div className="bg absolute h-[100%] w-[100%]  top-0 left-0"></div>
       <Nav />
+      <Hero />
     </section>
   );
 };
