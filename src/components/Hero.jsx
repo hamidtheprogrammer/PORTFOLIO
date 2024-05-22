@@ -11,7 +11,7 @@ const Hero = () => {
           HI! I AM <span className="text-purple-400 text_shadow">OWOYEMI</span>{" "}
           ABDULHAMEED
         </h1>
-        <p className="text-sm tracking-[0.2em]">
+        <p className="text-[0.65em] tracking-[0.2em]">
           A FRONTEND DEVELOPER FOCUSED ON CRAFTING ELEGANT AND EFFICIENT WEB FOR
           SEAMLESS USER EXPERIENCES
         </p>
