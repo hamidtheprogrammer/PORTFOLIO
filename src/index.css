@@ -69,9 +69,32 @@ html {
 }
 
 .header_text {
-  font-size: clamp(3.5rem, 5cqi, 10rem);
+  font-size: clamp(3.2rem, 5cqi, 5rem);
 }
 
 .text_shadow {
   text-shadow: 0 0 2px currentColor;
+}
+
+.header_container > * {
+  animation: active 1s;
+}
+
+@keyframes active {
+  from {
+    transform: translateY(100%);
+  }
+}
+.nav_container {
+  width: fit-content;
+}
+.nav_container nav {
+  transition: 0.5s;
+  animation: nav 1s;
+}
+
+@keyframes nav {
+  from {
+    transform: translateX(-100%);
+  }
 }

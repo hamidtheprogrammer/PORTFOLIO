@@ -5,7 +5,7 @@ import Hero from "./components/Hero";
 
 const App = () => {
   return (
-    <section className="relative wrapper h-[100%] w-[100%]">
+    <section className="relative wrapper h-[100%] w-[100%] left-[50%] translate-x-[-50%]">
       <div className="bg absolute h-[100%] w-[100%]  top-0 left-0"></div>
       <Nav />
       <Hero />
