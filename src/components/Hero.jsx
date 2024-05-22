@@ -1,9 +1,10 @@
 import React from "react";
+import Button from "./UI/Button";
 
 const Hero = () => {
   return (
     <section className="wrapper relative h-[100%] w-[100%]">
-      <div className="relative top-[40%] flxCenter items-center flex-col left-[50%] translate-x-[-50%] translate-y-[-50%] text-center leading-[1.4]">
+      <div className="relative top-[40%] flxCenter items-center flex-col gap-4 left-[50%] translate-x-[-50%] translate-y-[-50%] text-center leading-[1.4]">
         <p className="text-sm text_shadow text-purple-400">
           DYNAMIC WEB DESIGN WITH REACTJS
         </p>
@@ -15,6 +16,7 @@ const Hero = () => {
           A FRONTEND DEVELOPER FOCUSED ON CRAFTING ELEGANT AND EFFICIENT WEB FOR
           SEAMLESS USER EXPERIENCES
         </p>
+        <Button name={"EXPERTISE"} />
       </div>
     </section>
   );
